@@ -60,6 +60,10 @@ button:hover{
     background-color:  #232324 ;
 }
 
+#carousel-prev:hover, #carousel-next:hover{
+  background-color: transparent !important;
+}
+
 
 .home-btn:hover{
   color:  #1a1919;
