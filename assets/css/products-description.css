@@ -1,0 +1,34 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'DM Serif Text', sans-serif;
+  font-size: 40px;
+}
+
+#carouselExampleDark {
+  width: 700px; /* You can adjust this as needed */
+  height: auto;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 700px; /* Set a specific height for the carousel item */
+}
+
+.carousel-item img {
+  object-fit: contain; /* Ensures the image fits within the container without being cropped */
+  display: flex;
+  justify-content: center;
+  width: auto; /* Auto width to maintain aspect ratio */
+  height: 100%; /* Set the height to fill the carousel item */
+}
+
+.image-container {
+  height: 700px; /* Ensure the container height matches the carousel item */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add some padding for spacing */
+}

@@ -1,0 +1,65 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+#forge-title {
+  font-family: 'DM Serif Text', sans-serif;
+  font-size: 35px;
+  color:#232324;
+}
+
+#container {
+  height: 690px;
+}
+
+.placeholder-for-3d {
+  width: 1000px;
+  height: 600px;
+}
+
+.pc-case {
+  border: 1px solid black;
+}
+
+#component-card::-webkit-scrollbar {
+  width: 0px;
+}
+
+#components, #components-dropdown {
+  background-color: rgb(245, 241, 241) !important;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+#components:hover, #components-dropdown:hover {
+  background-color: white !important;
+}
+
+#components-dropdown:last-child {
+  border-bottom: 1px solid rgb(199, 198, 198) !important;
+  margin-bottom: 8px;
+}
+
+.case-img {
+  width: 70px;
+  height: 70px;
+}
+
+.show-components {
+  display: block;
+}
+
+.hide-components {
+  display: none;
+}
+
+#component-card {
+  height: 22vh;
+}
+
+.component-info {
+  display: inline-block;
+  font-size: 12px;
+  width: 150px;
+}
+
